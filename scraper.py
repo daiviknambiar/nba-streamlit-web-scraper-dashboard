@@ -17,7 +17,6 @@ with open("data/raw_data.txt", "w", encoding="utf-8") as f:
 
 
 # endpoint = "https://cdong1--azure-proxy-web-app.modal.run"
-# api_key = "supersecretkey"
 # deployment_name = "gpt-4o"
 # client = OpenAI(
 #     base_url=endpoint,
