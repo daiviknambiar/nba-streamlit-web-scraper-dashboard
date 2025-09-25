@@ -16,9 +16,35 @@ Path("data").mkdir(parents=True, exist_ok=True)
 with open("data/raw_data.txt", "w", encoding="utf-8") as f:
     f.write(all_text)
 
+#Dynamically get source links before passing to LLM 
+links = []
+for a in soup.select('a[href*="/news/"]'):
+    href = a.get('href') or ''
+    text = a.get_text(' ', strip=True)
+    if not href or not text:
+        continue
+    if href.startswith('/'):
+        href = 'https://www.nba.com' + href
+    if 'nba.com/news' in href:
+        links.append({'text': text, 'url': href})
 
-endpoint = "https://cdong1--azure-proxy-web-app.modal.run"
-api_key = "supersecretkey"
+
+def match_url_for_title(title: str):
+    """Super simple matcher: pick the link whose text contains the title (or vice versa)."""
+    t = (title or '').lower()
+    best = None
+    best_len = 0
+    for L in links:
+        lt = L['text'].lower()
+        if t and (t in lt or lt in t):
+            if len(lt) > best_len:
+                best = L['url']; best_len = len(lt)
+    return best
+
+load_dotenv()
+
+endpoint = os.getenv("ENDPOINT_URL")
+api_key = os.getenv("OPENAI_API_KEY")
 deployment_name = "gpt-4o"
 client = OpenAI(
     base_url=endpoint,
@@ -87,4 +113,22 @@ response = client.chat.completions.create(
 )
 
 raw = response.choices[0].message.content.strip()
-print(raw)
+try:
+    parsed = json.loads(raw)
+except json.JSONDecodeError:
+    print("Model did not return valid JSON. Raw output:\n", raw)
+    raise
+
+data = parsed if isinstance(parsed, list) else [parsed]
+
+for rec in data:
+    if not rec.get('source_url'):
+        rec['source_url'] = match_url_for_title(rec.get('title', ''))
+
+
+json_data = Path("data/structured_data.json") 
+
+json_data.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+print(json.dumps(data, ensure_ascii=False, indent=2))
