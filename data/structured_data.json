@@ -1,0 +1,167 @@
+[
+  {
+    "id": "booker-has-unfinished-business-with-suns",
+    "title": "Booker has 'unfinished business' with Suns",
+    "source_url": "https://www.nba.com/news/phoenix-suns-media-day-2025",
+    "topic": "feature",
+    "players": [
+      "Devin Booker"
+    ],
+    "teams": [
+      "Phoenix Suns"
+    ],
+    "summary": "Devin Booker remains the leader of the Suns as they aim to recover from challenging seasons. He is still in his prime and ready to guide the team forward.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "suns-bring-back-nash-in-senior-adviser-role",
+    "title": "Suns bring back Nash in senior adviser role",
+    "source_url": "https://www.nba.com/news/steve-nash-joins-suns-senior-adviser",
+    "topic": "staff",
+    "players": [
+      "Steve Nash"
+    ],
+    "teams": [
+      "Phoenix Suns"
+    ],
+    "summary": "Steve Nash, a Hall of Fame guard and former MVP, returns to the Suns as a senior adviser. He was originally drafted by Phoenix in 1996.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "new-coach-higher-expectations-for-knicks",
+    "title": "New coach, higher expectations for Knicks",
+    "source_url": "https://www.nba.com/news/knicks-media-day-2025",
+    "topic": "staff",
+    "players": [],
+    "teams": [
+      "New York Knicks"
+    ],
+    "summary": "The Knicks enter the Mike Brown era with a new coach and elevated expectations. Media Day marks the official start of this new chapter.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "zions-mindset-whatever-my-team-needs",
+    "title": "Zion's mindset: 'Whatever my team needs'",
+    "source_url": "https://www.nba.com/news/zion-williamson-pelicans-media-day",
+    "topic": "feature",
+    "players": [
+      "Zion Williamson"
+    ],
+    "teams": [
+      "New Orleans Pelicans"
+    ],
+    "summary": "Zion Williamson, now slimmer and 25 years old, is prepared to take on more responsibility for the Pelicans. He aims to lead by example this season.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "wolves-76ers-unveil-classic-edition-uniforms",
+    "title": "Wolves, 76ers unveil Classic Edition uniforms",
+    "source_url": "https://www.nba.com/news/timberwolves-76ers-unveil-classic-edition-uniforms-2025-26",
+    "topic": "feature",
+    "players": [],
+    "teams": [
+      "Minnesota Timberwolves",
+      "Philadelphia 76ers"
+    ],
+    "summary": "Minnesota and Philadelphia reveal new Classic Edition jerseys for the upcoming season. These uniforms pay homage to their respective histories.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "report-rockets-vanvleet-suffers-torn-acl-2025-09-22",
+    "title": "Report: Rockets' VanVleet suffers torn ACL",
+    "source_url": "https://www.nba.com/news/rockets-fred-vanvleet-tears-acl",
+    "topic": "injury",
+    "players": [
+      "Fred VanVleet"
+    ],
+    "teams": [
+      "Houston Rockets"
+    ],
+    "summary": "Fred VanVleet is expected to miss the 2025-26 season due to a torn right ACL. The injury was reported by multiple sources.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "knicks-hart-set-to-wear-splint-this-season-2025-09-23",
+    "title": "Knicks' Hart set to wear splint this season",
+    "source_url": "https://www.nba.com/news/knicks-josh-hart-media-day",
+    "topic": "injury",
+    "players": [
+      "Josh Hart"
+    ],
+    "teams": [
+      "New York Knicks"
+    ],
+    "summary": "Josh Hart plans to delay surgery and wear a splint this season to stay on the court. He expressed discomfort with wearing anything on his hands.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "cavs-garland-toe-will-be-limited-in-camp-2025-09-23",
+    "title": "Cavs' Garland (toe) will be limited in camp",
+    "source_url": "https://www.nba.com/news/darius-garland-cavaliers-camp",
+    "topic": "injury",
+    "players": [
+      "Darius Garland"
+    ],
+    "teams": [
+      "Cleveland Cavaliers"
+    ],
+    "summary": "Darius Garland underwent surgery on his injured big toe, which affected him during the playoffs. He will have limited participation in training camp.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "film-study-how-cavs-can-improve-defense-2025-09-22",
+    "title": "Film Study: How Cavs can improve defense",
+    "source_url": "https://www.nba.com/news/film-study-how-cavs-can-improve-defense",
+    "topic": "analysis",
+    "players": [],
+    "teams": [
+      "Cleveland Cavaliers"
+    ],
+    "summary": "Despite ranking 8th overall, last season marked Cleveland's worst defensive performance in four years. A film study explores areas for improvement.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "the-athletic-impact-of-vanvleets-injury",
+    "title": "The Athletic: Impact of VanVleet's injury",
+    "source_url": "https://www.nba.com/news/the-athletic-fred-vanvleet-injury-hits-rockets-in-the-worst-spot-but-is-there-a-faint-silver-lining",
+    "topic": "analysis",
+    "players": [
+      "Fred VanVleet"
+    ],
+    "teams": [
+      "Houston Rockets"
+    ],
+    "summary": "Fred VanVleet's injury leaves Houston vulnerable in the backcourt after an offseason focused on big forwards and centers. The Rockets face challenges in depth.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "2025-26-season-preview-washington-wizards",
+    "title": "2025-26 Season Preview: Washington Wizards",
+    "source_url": "https://www.nba.com/news/2025-26-season-preview-was",
+    "topic": "preseason preview",
+    "players": [
+      "CJ McCollum",
+      "Cam Whitmore",
+      "Alex Sarr",
+      "Bub Carrington",
+      "Tre Johnson"
+    ],
+    "teams": [
+      "Washington Wizards"
+    ],
+    "summary": "The Wizards enter the season with promising young talents and veteran CJ McCollum. Fans have reasons for optimism as the team rebuilds.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  },
+  {
+    "id": "2025-26-season-preview-minnesota-timberwolves",
+    "title": "2025-26 Season Preview: Minnesota Timberwolves",
+    "source_url": "https://www.nba.com/news/2025-26-season-preview-min",
+    "topic": "preseason preview",
+    "players": [],
+    "teams": [
+      "Minnesota Timberwolves"
+    ],
+    "summary": "The Timberwolves aim to advance past the Western Conference Finals this season. The team looks to build on its recent progress.",
+    "extracted_at": "2025-09-25T18:43:37.494289+00:00"
+  }
+]
