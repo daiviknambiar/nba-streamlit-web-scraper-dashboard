@@ -11,7 +11,7 @@ load_dotenv()
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-TABLE_NAME   = os.getenv("TABLE_NAME", "nba_news_data")  # change if needed
+TABLE_NAME   = os.getenv("TABLE_NAME", "nba_news_data")  
 
 if not SUPABASE_URL or not SUPABASE_KEY:
     st.error("Missing SUPABASE_URL or SUPABASE_KEY env vars.")
